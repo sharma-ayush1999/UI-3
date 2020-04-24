@@ -1,0 +1,33 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 10px 10px -6px #9797bc;
+    width: 100%;
+    background-color: #fff;
+    height:100px;
+}
+.header-content{
+    justify-content: center;
+    padding-top: 1em;
+}
+.header-ul{
+    padding: 1em;
+    padding-top: 0.5em;
+}
+.header-li{
+    padding: 1em;
+    a{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.2em;
+        letter-spacing: 2px;
+        transition: all 0.7s ease-in-out;
+        color: #9797bc;
+    }
+    a:hover{
+        color: #18297a;
+    }
+}
+.logo-img{
+    width: 11%;
+}

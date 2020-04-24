@@ -1,0 +1,36 @@
+@import "font-family";
+@import "header";
+@import "banner";
+@import "fontawesome";
+@import "solid";
+@import "regular";
+@import "brands";
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a,li{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+._90{
+    width: 90%;
+}
+._80{
+    width: 80%;
+}
+.flex{
+    display: flex;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
